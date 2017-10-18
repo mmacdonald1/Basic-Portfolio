@@ -95,19 +95,104 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Header =========================== */
+body{
+    max-width: 960px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #ffffff;
+    font-family:Times New Roman;
+    
+}
+.main-header{
+    background-color:#ffffff;
+    border-bottom: 1px solid #dddddd;
+    width:100%;
+    float:left;
+}
+#logo{
+    color:#ffffff;
+    background-color:#4aaaa5;
+    height:70px;
+    width:35%;
+    float:left;
+    text-align:center;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 30px;
+}
 
+nav ul{
+    list-style:none;
+    width:60%;
+    float:right;
+    text-align: right;
+    margin-top:30px;
+}
 
+nav ul li{
+    display: inline;
+    text-align:center;
+    font-size:18px;
+    
+}
 
+nav ul li a{
+    text-decoration: none;
+    color: grey;
+    padding-left: 40px;
+    
+}
 
+.container{
+    background-color: #cccccc;
+}
 
+main{
+    width:650px;
+    background-color: #ffffff;
+    margin-right: 0px;
+}
+/* problem area*/
+#title-area{
+    font-size: 30px;
+    font-weight:normal;
+    margin-top: 50px;
+}
 
+#mel-img{
+    width:125px;
+    height:175px;
+    float:left;
+}
 
+p{
+    float:clear;
+}
 
+aside{
+    background-color:#ffffff;
+    width:270px;
+    float:right;
+}
+aside ul{
+    list-style: none;
+}
 
+ul li img{
+    width:25px;
+    height:25px;
+    float:left;
+}
 
-
-
-
+footer{
+    background-color: #666666;
+    border-top:5px solid #4aaaa5;
+}
+#footer-text{
+    color:#ffffff;
+    text-align: center;
+}
 
 
 
