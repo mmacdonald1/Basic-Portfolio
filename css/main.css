@@ -183,10 +183,6 @@ main{
     float:left;
 }
 
-p{
-    float:left;
-}
-
 aside{
     background-color:#ffffff;
     width:250px;
@@ -231,11 +227,36 @@ a img{
     color:#ffffff;
     font-family: 'Helvetica Neue';
     height:75px;
-    margin-left: 350px;
 }
 
 /* Portfolio Code ======================
 ============================*/
+.project{
+    width:270px;
+    margin-bottom: 20px; 
+    margin-top: 20px;
+    margin-right: 20px;
+    float:left;
+}
+.project img{
+    position: relative;
+    z-index: 1;
+    height:200px;
+    width:270px;
+   
+}
+.banner{
+    position: relative;
+    z-index:2;
+    bottom: 65px;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    font-family: Times New Roman;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align:center;
+    font-size:20px;
+}
 
 
 /* Contact Code ======================
